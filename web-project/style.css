@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body,
+header,
+main,
+footer {
+    margin: 0;
+    padding: 0;
+    /* min-width: 1430px; */
+}
+
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    /* font-weight: 1000; */
+    font-size: 16px;
+    color: rgba(54, 56, 56, 0.9033);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* line-height: 22px; */
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 97px;
+    height: 31px;
+    margin-top: 44px;
+    margin-left: 620px;
+}
+
+.button-about,
+.button-gallery,
+.button-blog,
+.button-contact {
+    text-decoration: none;
+    color: rgba(54, 56, 56, 0.9033);
+    position: relative;
+    margin-top: 49px;
+}
+
+.button-about {
+    margin-left: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.button-gallery {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button-blog {
+    margin-left: 350px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button-contact {
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.menu {
+    height: 3.5%;
+    position: absolute;
+    padding-left: 50px;
+    margin-top: 45px;
+    margin-left: 1270px;
+}
+
+
+.back-picture {
+    width: 100%;
+    margin-top: 49px;
+    display: block;
+    overflow: hidden;
+}
+
+.chair {
+    width: 35%;
+    position: relative;
+    margin-left: 100px;
+    margin-top: -522px;
+}
+
+h1 {
+    font-size: 77px;
+    position: relative;
+    margin-left: 600px;
+    margin-top: -500px;
+} 
+
+h2 {
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 600px;
+    margin-top: 100px;
+} 
