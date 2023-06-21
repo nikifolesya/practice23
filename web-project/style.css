@@ -184,13 +184,15 @@ h4 {
     margin-right: 1.5%;
 }
 
-/* .img-2 {
+ .img-2 {
+    background: url(./desire-2/gallery/picture/hover_2.png);
     transition: 0s;
-    cursor: pointer;
+    /* cursor: pointer; */
+    display: block;
 }
 
-.img-2:hover {
-    background-color: #FFFFFF;
+/* .img-2:hover {
+    background: url(./desire-2/gallery/picture/hover_2.png);
 } */
 
 .sofa-img {
