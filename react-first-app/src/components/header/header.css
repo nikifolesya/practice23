@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+header {
+    width: 100%;
+}
+
+/* .menu-button {
+    background-color: white;
+    border: none;
+    margin-left: 10%;
+    margin-right: 3%;
+} */
+
+.menu {
+    width: 2.7%;
+    margin-left: 25%;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3%;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.logo {
+    width: 8%;
+    margin-left: 25%;
+}
+
+.left-button,
+.right-button {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left-button {
+    margin-left: 12%;
+}
+
+.right-button {
+    margin-left: 7%;
+}
+
+/* .button-about,
+.button-gallery,
+.button-blog,
+.button-contact {
+    text-decoration: none;
+    color: rgba(54, 56, 56, 0.9033);
+} */
+
+.button-header {
+    margin-left: 70%;
+    text-decoration: none;
+    color: rgba(54, 56, 56, 0.9033);
+}
+

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+.welcome {
+    margin-top: 2.7%;
+    color: rgba(54, 56, 56, 0.9033);
+}
+
+.back-picture {
+    width: 100%;
+    display: block;
+}
+
+.chair {
+    width: 35%;
+    position: relative;
+    margin-left: 5%;
+    margin-top: -37%;
+}
+
+h1 {
+    font-size: 5vw;
+    font-weight: 700;
+    position: relative;
+    margin-left: 42%;
+    margin-top: -32%;
+} 
+
+h2 {
+    font-size: 1.2vw;
+    font-weight: 300;
+    position: relative;
+    margin-left: 42%;
+    margin-top: 3%;
+    padding-right: 7%;
+} 
+
+.line-1 {
+    width: 8.5%;
+    border: 1% solid #6D7278;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: -2%;
+}
+
+/* h2:before{ 
+    content: " ";
+    background: rgba(54, 56, 56, 0.9033);
+    width: 10%;
+    height: 1px;
+    top: 5%;
+    /* position: relative; 
+
+} */
+
+h3,
+h4 {
+    position: relative;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 20%;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 1.6vw;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.line-2 {
+    width: 25%;
+    border: 1% solid #6D7278;
+    position: absolute;
+    margin-left: 37.5%;
+    margin-top: -2.5%;
+}
