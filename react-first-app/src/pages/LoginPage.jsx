@@ -1,13 +1,10 @@
+import LoginCard from "../chakra/LoginCard"
+
 const LoginPage = () => {
     return(
-        <div>
-            <form action="">
-                <input type="text" />
-                <input type="password" />
-                <input type="checkbox" />
-                <button type="submit"></button>
-            </form>
-        </div>
+        <>
+            <LoginCard/>
+        </>
     )
 }
 

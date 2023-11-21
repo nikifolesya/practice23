@@ -2,13 +2,14 @@
 import './header.css'
 import img1 from '../../desire-2 2/logo.png'
 import img2 from '../../desire-2 2/icon_menu.svg'
+import links from '../../data'
 
 function Header() {
     const menuLinksLeft = [
         { 
             id: 1,
             title: "Home",
-            link: "home-page"
+            link: links[0].link
         },
         {
             id: 2,
@@ -21,12 +22,12 @@ function Header() {
         { 
             id: 3,
             title: "About",
-            link: "about-page"
+            link: links[1].link
         },
         {
             id: 4,
-            title: "Cart",
-            link: "cart-page"
+            title: "Login",
+            link: links[2].link
         }
     ]
 

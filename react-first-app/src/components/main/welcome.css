@@ -37,10 +37,10 @@ h2 {
 
 .line-1 {
     width: 8.5%;
-    border: 1% solid #6D7278;
+    border: 1% solid black;
     position: absolute;
     margin-left: 42%;
-    margin-top: -2%;
+    margin-top: 1.4%;
 }
 
 /* h2:before{ 
@@ -70,6 +70,7 @@ h4 {
     font-size: 1.6vw;
     padding-left: 15%;
     padding-right: 15%;
+    margin-top: 2%;
 }
 
 .line-2 {
@@ -77,5 +78,5 @@ h4 {
     border: 1% solid #6D7278;
     position: absolute;
     margin-left: 37.5%;
-    margin-top: -2.5%;
+    margin-top: 0.35%;
 }

@@ -2,14 +2,13 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './components/header/header'
-import Welcome from './components/main/welcome'
-import Gallery from './components/main/gallery'
-import Sofa from './components/main/sofa'
-import Collage from './components/main/collage'
-import Contact from './components/footer/contact'
-import MadeBy from './components/footer/madeBy'
-// import './components/header/header.css'
+import { Route, Routes } from 'react-router-dom'
+import MainPage from './pages/MainPage'
+import links from './data'
+import AboutPage from './pages/AboutPage'
+import LoginPage from './pages/LoginPage'
+
+
 
 
 function App() {
@@ -17,40 +16,14 @@ function App() {
 
   return(
     <>
-      <Header/>
-      <Welcome/>
-      <Gallery/>
-      <Sofa/>
-      <Collage/>
-      <Contact/>
-      <MadeBy/>
+        <Routes>
+          <Route path={links[0].link} element={<MainPage/>}/>
+          <Route path={links[1].link} element={<AboutPage/>}/>
+          <Route path={links[2].link} element={<LoginPage/>}/>
+        </Routes>
     </>
   )
 
-  // return (
-  //   <>
-  //     <div>
-  //       <a href="https://vitejs.dev" target="_blank">
-  //         <img src={viteLogo} className="logo" alt="Vite logo" />
-  //       </a>
-  //       <a href="https://react.dev" target="_blank">
-  //         <img src={reactLogo} className="logo react" alt="React logo" />
-  //       </a>
-  //     </div>
-  //     <h1>Vite + React</h1>
-  //     <div className="card">
-  //       <button onClick={() => setCount((count) => count + 1)}>
-  //         count is {count}
-  //       </button>
-  //       <p>
-  //         Edit <code>src/App.jsx</code> and save to test HMR
-  //       </p>
-  //     </div>
-  //     <p className="read-the-docs">
-  //       Click on the Vite and React logos to learn more
-  //     </p>
-  //   </>
-  // )
 }
 
 export default App
